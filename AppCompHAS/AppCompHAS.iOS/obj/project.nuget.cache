@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "+V/TLyyonZsyI/7etRH31VQjICgW4d0WrwRgFNjFti2lHStK4Tx0S/vKaULtPRFkGzPt1m3dWyWlYq/H3xzZ7Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rodri\\Desktop\\Etec\\3Q\\PAMII\\A04_03-09-2020\\AppCompHAS\\AppCompHAS\\AppCompHAS.iOS\\AppCompHAS.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rodri\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+  ],
+  "logs": []
+}
