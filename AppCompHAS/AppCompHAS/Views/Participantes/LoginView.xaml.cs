@@ -39,7 +39,7 @@ namespace AppCompHAS.Views.Participantes
 
                     string mensagem = string.Format("Bem Vindo, {0}!", p.Nome);
                     await DisplayAlert("Informação", mensagem, "OK");
-                    await Navigation.PushModalAsync(new MainPage());
+                    await Navigation.PushModalAsync(new Views.DetailView());
                 }
                 else
                     await DisplayAlert("Informação", "Dados incorretos!!! =(", "OK");

@@ -22,20 +22,20 @@ namespace AppCompHAS.Views
             {
                 new Models.MenuItem
                 {
-                    Id = 0,Title = "Participantes",
+                    Id = 0, Title = "Participantes",
                     TargetType = typeof(Views.Participantes.ListagemView),
                     IconSource = "MenuParticipantes.png"
                 },
                 new Models.MenuItem
                 {
-                    Id = 0,Title = "Compromissos",
+                    Id = 0, Title = "Compromissos",
                     TargetType = typeof(Views.Compromissos.ListagemView),
                     IconSource = "MenuCompromissos.png"
 
                 },
                 new Models.MenuItem
                 {
-                    Id = 0,Title = "Imagens ",
+                    Id = 1, Title = "Imagens ",
                     TargetType = typeof(Views.Imagens.ListagemView),
                     IconSource = "MenuImagens.png"
 
@@ -49,6 +49,32 @@ namespace AppCompHAS.Views
             DefinirMenu();
             ListView = itensMenuListView;
             BindingContext = this;
+        }
+
+        public string Nome
+        {
+            get
+            {
+                string nome = string.Empty;
+
+                if (Application.Current.Properties.ContainsKey("UsuarioNome"))
+                    nome = Application.Current.Properties["UsuarioNome"].ToString();
+
+                return string.Format("Usuario: {0}", nome);
+            }
+        }
+
+        public string Email
+        {
+            get
+            {
+                string email = string.Empty;
+
+                if (Application.Current.Properties.ContainsKey("UsuarioEmail"))
+                    email = Application.Current.Properties["UsuarioEmail"].ToString();
+
+                return string.Format("Email:  {0}", email);
+            }
         }
     }
 }

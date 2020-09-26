@@ -8,7 +8,7 @@
 
             <ListView.Header>
                 <Grid BackgroundColor="#03A9F4">
-                    <Grid.ColumnDefinitions><!-- Esse é um grid de 3 colunas e linhas as 3 primeiras são as colunas column.-->
+                    <Grid.ColumnDefinitions><!-- Esse é um grid de 3 colunas e 3 linhas as 3 primeiras são as colunas column.-->
                         <ColumnDefinition Width="10"/>
                         <ColumnDefinition Width="64"/>
                         <ColumnDefinition Width="*"/>

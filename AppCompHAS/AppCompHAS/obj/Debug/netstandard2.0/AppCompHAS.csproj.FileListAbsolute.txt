@@ -21,3 +21,4 @@ C:\Users\rodri\Desktop\Etec\3Q\PAMII\A04_03-09-2020\AppCompHAS\AppCompHAS\AppCom
 C:\Users\rodri\Desktop\Etec\3Q\PAMII\A04_03-09-2020\AppCompHAS\AppCompHAS\AppCompHAS\obj\Debug\netstandard2.0\AppCompHAS.csproj.CoreCompileInputs.cache
 C:\Users\rodri\Desktop\Etec\3Q\PAMII\A04_03-09-2020\AppCompHAS\AppCompHAS\AppCompHAS\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\rodri\Desktop\Etec\3Q\PAMII\A04_03-09-2020\AppCompHAS\AppCompHAS\AppCompHAS\obj\Debug\netstandard2.0\AppCompHAS.csproj.CopyComplete
+C:\Users\rodri\Desktop\Etec\3Q\PAMII\A04_03-09-2020\AppCompHAS\AppCompHAS\AppCompHAS\obj\Debug\netstandard2.0\Views\DetailView.xaml.g.cs
